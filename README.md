@@ -1,1 +1,1 @@
-# goalng-pocket-sdk
+# golang-pocket-sdk
