@@ -1,4 +1,4 @@
-package golang_pocket_sdk
+package pocket
 
 import "net/http"
 
