@@ -34,7 +34,7 @@ func main() {
 	}
 
 	err = client.Add(ctx, pocket.AddInput{
-		URL:         "https://github.com/zhashkevych/go-pocket-sdk",
+		URL:         "https://github.com/siteddv/golang-pocket-sdk",
 		AccessToken: authResp.AccessToken,
 	})
 
