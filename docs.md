@@ -2,7 +2,6 @@
 #### You can access SDK by this [link](https://github.com/siteddv/golang-pocket-sdk)
 
 ## Public structures documentation
-* **
 ```go
 AddInput struct {
     URL         string
@@ -34,10 +33,8 @@ AuthorizeResponse struct {
 ```
 
 **AuthorizeResponse** contains response data after user authorization
-* **
 
 ## Public functions documentation
-* **
 
 ```go
 func NewClient(consumerKey string) (*Client, error)
@@ -72,4 +69,3 @@ func (c *Client) Add(ctx context.Context, input AddInput) error
 ```
 
 **Add** creates new item in Pocket list
-* **

@@ -1,7 +1,7 @@
 # GetPocket API Golang SDK
 ## https://getpocket.com/developer/
 
-#### You can access full documentation by this [link](https://github.com/siteddv/golang-pocket-sdk/blob/main/docs.md)
+#### You can access full documentation by this [link](https://github.com/siteddv/golang-pocket-sdk/blob/master/docs.md)
 
 ### Example usage:
 
@@ -34,7 +34,7 @@ func main() {
 	}
 
 	err = client.Add(ctx, pocket.AddInput{
-		URL:         "https://github.com/zhashkevych/go-pocket-sdk",
+		URL:         "https://github.com/siteddv/golang-pocket-sdk",
 		AccessToken: authResp.AccessToken,
 	})
 
